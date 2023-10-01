@@ -1,0 +1,48 @@
+#game {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "mc mc mc"
+    "sc sc sc"
+    "nb sm yb"
+    "tm tm tm";
+}
+
+#mistakes-counter{
+    grid-area: mc;
+}
+
+#symbol-counter{
+    grid-area: sc;
+}
+
+#no-button{
+    grid-area: nb;
+}
+
+#symbol{
+    grid-area: sm;
+}
+
+#yes-button{
+    grid-area: yb;
+}
+
+#timer{
+    grid-area: tm;
+}
+
+section{
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    #game {
+        grid-template-areas: 
+        "tm mc"
+        "sm sm"
+        "sc sc"
+        "nb yb";
+    }
+}
