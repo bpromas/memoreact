@@ -1,9 +1,11 @@
+import "./Timer.css"
+
 function Timer() {
 
   return (
-    <>
-      <section id="timer">Timer</section>
-    </>
+    <section id="timer">
+      <span>3:00</span>
+    </section>
   )
 }
 

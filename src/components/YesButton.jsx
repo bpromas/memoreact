@@ -1,9 +1,11 @@
+import './YesButton.css'
+
 function YesButton() {
 
   return (
-    <>
-      <section id="yes-button">YesButton</section>
-    </>
+    <section id="yes-button">
+      <span>Y</span>
+    </section>
   )
 }
 

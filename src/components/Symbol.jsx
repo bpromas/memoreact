@@ -1,3 +1,5 @@
+import "./Symbol.css"
+
 function Symbol() {
 
   return (

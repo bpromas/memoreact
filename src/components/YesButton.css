@@ -1,0 +1,7 @@
+#yes-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  /* background-color: var(--green); */
+}

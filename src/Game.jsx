@@ -11,12 +11,12 @@ function Game() {
 
   return (
       <div id="game">
-        <NoButton/>
-        <YesButton/>
-        <Symbol/>
-        <SymbolCounter/>
-        <Timer/>
         <MistakesCounter/>
+        <SymbolCounter/>
+        <NoButton/>
+        <Symbol/>
+        <YesButton/>
+        <Timer/>
       </div>
   )
 }

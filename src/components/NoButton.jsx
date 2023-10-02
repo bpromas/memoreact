@@ -1,9 +1,11 @@
+import "./NoButton.css"
+
 function NoButton() {
 
   return (
-    <>
-      <section id="no-button">NoButton</section>
-    </>
+    <section id="no-button">
+      <span>N</span>
+    </section>
   )
 }
 

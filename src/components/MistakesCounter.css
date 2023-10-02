@@ -1,0 +1,10 @@
+#mistakes-counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#mistakes-counter span{
+  color: var(--red);
+}
