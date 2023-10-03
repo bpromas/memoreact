@@ -1,6 +1,6 @@
 import "./Timer.css"
 
-function Timer() {
+function Timer(props) {
 
   return (
     <section id="timer">
