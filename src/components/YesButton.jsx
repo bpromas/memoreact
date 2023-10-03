@@ -1,9 +1,9 @@
 import './YesButton.css'
 
-function YesButton() {
+function YesButton(props) {
 
   return (
-    <section id="yes-button">
+    <section id="yes-button" onClick={props.handleClick}>
       <span>Y</span>
     </section>
   )

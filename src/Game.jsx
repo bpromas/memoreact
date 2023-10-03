@@ -11,18 +11,38 @@ function Game() {
 
   const duration=90;
 
+
+  document.body.addEventListener('keydown', function(e) {
+    e.stopImmediatePropagation();
+    if(e.key == 'j' || e.key == 'J'){
+      handleYes();
+    } else if(e.key == 'f' || e.key == 'F'){
+      handleNo();
+    }
+  });
+
   const timesUp = () => {
     //TO-DO
     console.log("time's up!");
+  }
+
+  const handleYes = () => {
+    //TO-DO
+    console.log("yes");
+  }
+
+  const handleNo = () => {
+    //TO-DO
+    console.log("no");
   }
 
   return (
       <div id="game">
         <MistakesCounter/>
         <SymbolCounter/>
-        <NoButton/>
+        <NoButton handleClick={handleNo}/>
         <Symbol/>
-        <YesButton/>
+        <YesButton handleClick={handleYes}/>
         <Timer duration={duration} timesUp={timesUp} />
       </div>
   )
