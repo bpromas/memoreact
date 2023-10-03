@@ -9,6 +9,13 @@ import MistakesCounter from './components/MistakesCounter.jsx'
 
 function Game() {
 
+  const duration=90;
+
+  const timesUp = () => {
+    //TO-DO
+    console.log("time's up!");
+  }
+
   return (
       <div id="game">
         <MistakesCounter/>
@@ -16,7 +23,7 @@ function Game() {
         <NoButton/>
         <Symbol/>
         <YesButton/>
-        <Timer/>
+        <Timer duration={duration} timesUp={timesUp} />
       </div>
   )
 }
